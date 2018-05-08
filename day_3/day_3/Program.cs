@@ -12,9 +12,10 @@ namespace day_3
             string virkne2 = Console.ReadLine();
 			Console.Write("ievadi trešo vardu: ");
             string virkne3 = Console.ReadLine();
-
-			Console.WriteLine(Funkcija5(virkne1, virkne2, virkne3));
-
+          
+			string teikums = Funkcija5(virkne1, virkne2, virkne3);
+			Console.WriteLine(teikums);
+            // funkcija5 - izvada beigas
 
 			int mainigais = Funkcija2(); //return f-cijas rezultātu ieveto mainīgajā
 			Console.WriteLine(mainigais); //return f-cijas mainīgā izvade
