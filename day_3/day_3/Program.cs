@@ -17,7 +17,7 @@ namespace day_3
 		static void Funkcija()
 		{
 			int a, b, c;
-			a = 2;
+			a = 3;
 			b = 3;
 			c = a + b;
 
