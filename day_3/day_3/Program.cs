@@ -6,6 +6,14 @@ namespace day_3
     {
         static void Main(string[] args)
         {
+			Console.Write("ievadi pirmo vardu: ");
+			string virkne1 = Console.ReadLine();
+			Console.Write("ievadi otro vardu: ");
+            string virkne2 = Console.ReadLine();
+			Console.Write("ievadi trešo vardu: ");
+            string virkne3 = Console.ReadLine();
+
+			Console.WriteLine(Funkcija5(virkne1, virkne2, virkne3));
 
 
 			int mainigais = Funkcija2(); //return f-cijas rezultātu ieveto mainīgajā
@@ -53,11 +61,19 @@ namespace day_3
 			Console.WriteLine("f-cija ar parametru " + c);
 
 		}
+
 		static int Funkcija4(int skaitlis1, int skaitlis2)
 		{
 			int c = skaitlis1 + skaitlis2;
 
 			return c;
+		}
+
+		static string Funkcija5(string vards1, string vards2, string vards3)
+		{
+			string teikums = vards1 + " " + vards2 + " " + vards3 + "!";
+
+			return teikums;
 		}
     }
 }
