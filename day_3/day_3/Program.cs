@@ -23,12 +23,12 @@ namespace day_3
 			int a, b;
 			Console.Write("ievadi a:");
 			a = Convert.ToInt32(Console.ReadLine());
-
 			Console.Write("ievadi b:");
             b = Convert.ToInt32(Console.ReadLine());
 
 			int fcija4 = Funkcija4(a, b);
 			Console.WriteLine("F-cija4 rezultats:" + fcija4);
+            //Funkcija4 izvada beigas
 
 			Funkcija(); //void f-cijas palaišana
 			Funkcija3(5, 6);
